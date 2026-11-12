@@ -21,6 +21,18 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+# School Management (Laravel 13)
+
+## Installation
+composer install
+copy .env.example .env
+php artisan key:generate
+(create the database "school" in phpMyAdmin)
+php artisan migrate
+npm install
+npm run build
+php artisan serve
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
